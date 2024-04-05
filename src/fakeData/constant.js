@@ -1,0 +1,62 @@
+export const WEATHER_ICONS = [
+    {main: 'Thunderstorm', icon: '11d'},
+    {main: 'Thunderstorm', icon: '11d'},
+    {main: 'Thunderstorm', icon: '11d'},
+    {main: 'Thunderstorm', icon: '11d'},
+    {main: 'Thunderstorm', icon: '11d'},
+    {main: 'Thunderstorm', icon: '11d'},
+    {main: 'Thunderstorm', icon: '11d'},
+    {main: 'Thunderstorm', icon: '11d'},
+    {main: 'Thunderstorm', icon: '11d'},
+    {main: 'Thunderstorm', icon: '11d'},
+    {main: 'Drizzle', icon: '09d'},
+    {main: 'Drizzle', icon: '09d'},
+    {main: 'Drizzle', icon: '09d'},
+    {main: 'Drizzle', icon: '09d'},
+    {main: 'Drizzle', icon: '09d'},
+    {main: 'Drizzle', icon: '09d'},
+    {main: 'Drizzle', icon: '09d'},
+    {main: 'Drizzle', icon: '09d'},
+    {main: 'Drizzle', icon: '09d'},
+    {main: 'Rain', icon: '10d'},
+    {main: 'Rain', icon: '10d'},
+    {main: 'Rain', icon: '10d'},
+    {main: 'Rain', icon: '10d'},
+    {main: 'Rain', icon: '10d'},
+    {main: 'Rain', icon: '13d'},
+    {main: 'Rain', icon: '09d'},
+    {main: 'Rain', icon: '09d'},
+    {main: 'Rain', icon: '09d'},
+    {main: 'Rain', icon: '09d'},
+    {main: 'Snow', icon: '13d'},
+    {main: 'Snow', icon: '13d'},
+    {main: 'Snow', icon: '13d'},
+    {main: 'Snow', icon: '13d'},
+    {main: 'Snow', icon: '13d'},
+    {main: 'Snow', icon: '13d'},
+    {main: 'Snow', icon: '13d'},
+    {main: 'Snow', icon: '13d'},
+    {main: 'Snow', icon: '13d'},
+    {main: 'Snow', icon: '13d'},
+    {main: 'Snow', icon: '13d'},
+    {main: 'Clouds', icon: '02d'},
+    {main: 'Clouds', icon: '03d'},
+    {main: 'Clouds', icon: '04d'},
+    {main: 'Clouds', icon: '04d'}
+]
+
+export const WEATHER_HOUR = [
+    {day: '01d', night: '01n', main: 'clear sky'},
+    {day: '02d', night: '02n', main: 'few clouds'},
+    {day: '03d', night: '03n', main: 'scattered clouds'},
+    {day: '04d', night: '04n', main: 'broken clouds'},
+    {day: '09d', night: '09n', main: 'shower rain'},
+    {day: '10d', night: '10n', main: 'rain'},
+    {day: '11d', night: '11n', main: 'thunderstorm'},
+    {day: '13d', night: '13n', main: 'snow'},
+    {day: '50d', night: '50n', main: 'mist'}
+]
+
+export const DAY_OF_WEEK = [
+    'Today', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'
+]

@@ -1,0 +1,1 @@
+export const DOMAIN_OPEN_WEATHER = 'https://openweathermap.org/img/wn'

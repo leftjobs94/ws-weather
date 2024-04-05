@@ -1,0 +1,38 @@
+.weather-screen {
+  display: flex;
+  padding: 32px;
+  height: calc(100vh - 64px);
+  .today-forecast {
+    flex: 3;
+    padding-right: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  .days-forecast {
+    flex: 2;
+    background: var(--second-color);
+    border-radius: var(--border-radius);
+    padding: 16px;
+    &>.title {
+      text-align: left;
+      color: var(--text-second-color);
+    }
+  }
+}
+.detail-forecast {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  &>div:nth-child(n) {
+    flex: 1;
+    padding: 16px;
+    margin: 6px;
+    display: flex;
+  }
+  &>div:not(:first-child) {
+    background: var(--second-color);
+    border-radius: var(--border-radius);
+    display: block;
+  }
+}
